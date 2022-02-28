@@ -12,7 +12,7 @@ url = f"https://api.opensea.io/api/v1/assets?order_direction=desc&offset={offset
 
 headers = {
     "Accept": "application/json",
-    "X-API-KEY": "b0fb08d7c8f049009ef4b32440d2c4cc"
+    "X-API-KEY": "KEY HERE"
 }
 
 outputFile = open('scrapedURLs.csv', 'a')
